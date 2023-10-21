@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTN CHILD - Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="container-fluid">
+    <section class="bannerEnvio"></section>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img
+                        src="https://acdn.mitiendanube.com/stores/867/057/themes/common/logo-1275456823-1555643811-7bc0f7d2d27b0369f35e8c5aa444b3131555643812-480-0.webp"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">BEBE NENA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BEBE NENE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BEBE NENE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BEBE NENE</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2  nav-border" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-light" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <section class="bannerDescuento">
+        <div class="bannerDescuento--xs container-fluid ">
+            <img src="https://acdn.mitiendanube.com/stores/867/057/themes/new_linkedman/2-img-1750450044-1697511631-447e3f5c12dcad0391b9d5187c02faaf1697511631-640-0.webp?939440985"
+                alt="">
+        </div>
+        <div class="bannerDescuento--xl container-fluid">
+            <img src="https://acdn.mitiendanube.com/stores/867/057/themes/new_linkedman/2-img-899898876-1697511630-9d6930b9f0fe13128d666ac236e035bb1697511630-1400-1400.webp?939440985"
+                alt="">
+        </div>
+    </section>
+    <main class="mb-4">
+        <section class="formulario-contacto container">
+            <div class="formulario row">
+                
+                <h1 class="h1-contacto col-12">Escríbenos y en breve nos pondremos en contacto contigo</h1>
+
+
+                <form class="form-contacto row-cols-1" action="" method="post" id="form">
+                    <div class="row">
+                        <label for="nombre" class="colocar_nombre col-4">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input class="input col-8" type="text" name="introducir_nombre" id="nombre"
+                            placeholder="Escribe tu nombre">
+                    </div>
+                    <div class="row">
+                        <label for="apellido" class="colocar_apellido col-4">Apellido
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input class="input col-8 type="text" name="introducir_apellido" id="apellido"
+                            placeholder="Escribe tu apellido">
+                    </div>
+                    <div class="row">
+                        <label for="email" class="colocar_email col-4">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input class="input col-8" type="email" name="introducir_email" id="email"
+                            placeholder="Escribe tu Email">
+                    </div>
+                    <div class="row">
+                        <label for="asunto" class="colocar_asunto col-4">Asunto
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input class="input col-8 type="text" name="introducir_asunto" id="asunto"
+                            placeholder="Escribe un asunto">
+                    </div>
+                    <div class="row">
+                        <label for="mensaje" class="colocar_mensaje col-4">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <textarea name="introducir_mensaje" class="texto_mensaje col-8" id="mensaje"
+                            placeholder="Deja aquí tu comentario..."></textarea>
+
+                    </div>
+                    <div class="row justify-content-around w-75 mx-auto">
+                    <input class=" col-2 btn btn-form" type="submit" name="enviar_formulario" id="enviar" value="ENVIAR">                        
+                    <input class="col-2 btn btn-form" type="reset" value="BORRAR">
+                </div>
+                    <p class="aviso">
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>
+
+                    <div class="errores">
+                        <ul></ul>
+                    </div>
+
+                </form>
+
+            </div>
+        </section>
+        <section>
+            <div class="infoUsuario">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h4>CATALOGO</h4>
+            <ul>
+                <li><a href="">Bebe Nena</a></li>
+                <li><a href="">Bebe Nene</a></li>
+                <li><a href="">Nene</a></li>
+                <li><a href="">Nena</a></li>
+            </ul>
+        </section>
+        <section>
+            <h4>LOGO</h4>
+            <ul>
+                <li><a href="">Manifiesto</a></li>
+                <li><a href="">Nuestros</a></li>
+                <li><a href="">Politica</a></li>
+                <li><a href="">Recomendaciones</a></li>
+                <li><a href="">Locales</a></li>
+                <li><a href="">Promociones</a></li>
+            </ul>
+        </section>
+        <section>
+            <h4>AYUDA</h4>
+            <ul>
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Seguimiento</a></li>
+                <li><a href="">Como comprar</a></li>
+                <li><a href="">Tabla de talles</a></li>
+                <li><a href="">Preguntas frecuetnes</a></li>
+                <li><a href="">Promociones</a></li>
+            </ul>
+        </section>
+        <section class="footer-block">
+            <div class="footer-redes">
+                <h4>REDES SOCIALES</h4>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+            </div>
+            <div class="footer-mail">
+                <h4>ENTERATE DE TODO</h4>
+                <form class="row row-cols-lg-auto g-3 align-items-center">
+                    <div class="col-12">
+                        <div class="input-group">
+                            <input type="email" class="form-control " id="mail-newslatter" placeholder="mail@mail.com">
+                            <span class="input-group-text" id="basic-addon1"><button type="submit" class="btn btn-light"
+                                    onclick="return validarEmail()"><i class="bi bi-send"></i></button></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./mail.js"></script>
+</body>
+
+</html>
